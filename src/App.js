@@ -7,10 +7,16 @@ const App = () => {
     fontSize: "18px"
   };
 
+  const contentLedyStyle = {
+    color: "pink",
+    fontSize: "18px"
+  };
+
   return (
     <>
       <h1 style={{ color: "red" }}> こんにちは</h1>
-      <p style={contentStyle}> こんにちは</p>
+      <p style={contentStyle}> おげんきですか？</p>
+      <p style={contentLedyStyle}> 元気です</p>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
